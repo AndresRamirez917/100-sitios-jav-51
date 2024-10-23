@@ -1,0 +1,120 @@
+.grid-1 {
+  grid-template-columns: repeat(1, 1fr);
+}
+
+#mainheader .logo {
+  grid-column: 1;
+  grid-row: 1;
+}
+#mainheader .navbar {
+  grid-column: 1;
+  grid-row: 2;
+  margin-bottom: 2rem;
+}
+#mainheader .button-1 {
+  grid-column: 1;
+  grid-row: 3;
+}
+
+.grid-2 {
+  grid-template-columns: repeat(1, 1fr);
+}
+
+#stories .box-1,
+#stories .box-2,
+#stories .box-3,
+#stories .box-4,
+#stories .box-5 {
+  grid-column: 1;
+}
+#stories .box-1 {
+  grid-row: 2;
+}
+#stories .box-2 {
+  grid-row: 1;
+  background: #000;
+  padding: 0;
+  padding: 50px;
+}
+#stories .box-3 {
+  grid-row: 3;
+}
+#stories .box-4 {
+  grid-row: 4;
+}
+#stories .box-5 {
+  grid-row: 5;
+}
+
+.grid-3 {
+  grid-template-columns: repeat(1, 1fr);
+}
+
+#features .card-1,
+#features .card-2,
+#features .card-3,
+#features .card-4 {
+  grid-column: 1;
+}
+#features .card-1 {
+  grid-row: 1;
+}
+#features .card-2 {
+  grid-row: 2;
+}
+#features .card-3 {
+  grid-row: 3;
+}
+#features .card-4 {
+  grid-row: 4;
+}
+
+.grid-4 {
+  grid-template-columns: repeat(1, 1fr);
+}
+
+#pricing .pricing-box-1,
+#pricing .pricing-box-2,
+#pricing .pricing-box-3 {
+  grid-column: 1;
+}
+#pricing .pricing-box-1 {
+  grid-row: 1;
+}
+#pricing .pricing-box-2 {
+  grid-row: 2;
+}
+#pricing .pricing-box-3 {
+  grid-row: 3;
+}
+
+#contact form {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.grid-5 {
+  grid-template-columns: repeat(1, 1fr);
+}
+
+#footer {
+  color: #fff;
+}
+#footer .footer-grid-1,
+#footer .footer-grid-2,
+#footer .footer-grid-3 {
+  grid-column: 1;
+}
+#footer .footer-grid-1 {
+  grid-row: 1;
+}
+#footer .footer-grid-2 {
+  margin: 0;
+  grid-row: 2;
+}
+#footer .footer-grid-3 {
+  grid-row: 3;
+}
+#footer .footer-grid-3 a {
+  color: #fff;
+}/*# sourceMappingURL=mobile.css.map */

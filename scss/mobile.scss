@@ -1,0 +1,153 @@
+//mainheader
+.grid-1 {
+    grid-template-columns: repeat(1, 1fr);
+}
+#mainheader {
+    .logo {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .navbar {
+        grid-column: 1;
+        grid-row: 2;
+        margin-bottom: 2rem;
+    }
+    .button-1 {
+        grid-column: 1;
+        grid-row: 3;
+    }
+    // .button-1::after {
+    //     content: "✈";
+    //     font-size: 2rem;
+    //     margin: 0 auto;
+    //     text-align: center;
+    //     width: 17%;
+    //     height: 9%;
+    //     position: absolute;
+    //     z-index: 1;
+    //     background: red;
+    //    margin-top: -19px;
+    //    margin-left: 6px;
+    //     display: inline-block;
+     
+    //     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 1);
+       
+    // }
+   
+}
+
+//stories
+.grid-2 {
+    grid-template-columns: repeat(1, 1fr);
+}
+#stories {
+    .box-1,
+    .box-2,
+    .box-3,
+    .box-4,
+    .box-5 {
+        grid-column: 1;
+    }
+    .box-1 {
+        grid-row: 2;
+
+    }
+    .box-2 {
+        grid-row: 1;
+        background: #000;
+        padding: 0;
+        padding: 50px;
+    }
+    .box-3 {
+        grid-row: 3;
+    }
+    .box-4 {
+        grid-row: 4;
+    }
+    .box-5 {
+        grid-row: 5;
+    }
+}
+
+//features
+.grid-3 {
+    grid-template-columns: repeat(1, 1fr);
+}
+#features {
+    .card-1,
+    .card-2,
+    .card-3,
+    .card-4 {
+        grid-column: 1;
+    }
+    .card-1 {
+        grid-row: 1;
+    }
+    .card-2 {
+        grid-row: 2;
+    }
+    .card-3 {
+        grid-row: 3;
+    }
+    .card-4 {
+        grid-row: 4;
+    }
+}
+
+//pricing
+.grid-4 {
+    grid-template-columns: repeat(1, 1fr);
+}
+#pricing {
+    .pricing-box-1,
+    .pricing-box-2,
+    .pricing-box-3{
+        grid-column: 1;
+    }
+    .pricing-box-1 {
+        grid-row: 1;
+    }
+    .pricing-box-2 {
+        grid-row: 2;
+    }
+    .pricing-box-3 {
+        grid-row: 3;
+    }
+}
+
+//contact
+#contact {
+    form {
+       
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+//footer
+.grid-5 {
+    grid-template-columns: repeat(1, 1fr);
+}
+#footer {
+    color: #fff;
+    .footer-grid-1,
+    .footer-grid-2,
+    .footer-grid-3 {
+        grid-column: 1;
+    }
+    .footer-grid-1 {
+        grid-row: 1 ;
+    }
+    .footer-grid-2 {
+        margin: 0;
+        grid-row: 2;
+    }
+    .footer-grid-3 {
+        grid-row: 3;
+       a {
+        color: #fff;
+       }
+    }
+}
+
