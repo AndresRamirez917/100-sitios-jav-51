@@ -92,6 +92,16 @@ img, #features {
     animation-fill-mode:both;
 }
 
+//placeholder
+
+::placeholder {
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 600; 
+    content: "\f007";
+    text-align: right;
+
+}
+
 
 //mainheader
 .grid-1 {
@@ -154,15 +164,7 @@ img, #features {
         text-align: center;
     }
 
-//placeholder
 
-::placeholder {
-    font-family: "Font Awesome 5 Free"; 
-    font-weight: 600; 
-    content: "\f007";
-    text-align: right;
-    color: red;
-}
 
 
     //     content: "✈";

@@ -82,6 +82,20 @@ img, #features {
   animation-fill-mode: both;
 }
 
+::-moz-placeholder {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 600;
+  content: "\f007";
+  text-align: right;
+}
+
+::placeholder {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 600;
+  content: "\f007";
+  text-align: right;
+}
+
 .grid-1 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -133,20 +147,6 @@ img, #features {
   color: #fff;
   font-size: small;
   text-align: center;
-}
-#mainheader ::-moz-placeholder {
-  font-family: "Font Awesome 5 Free";
-  font-weight: 600;
-  content: "\f007";
-  text-align: right;
-  color: red;
-}
-#mainheader ::placeholder {
-  font-family: "Font Awesome 5 Free";
-  font-weight: 600;
-  content: "\f007";
-  text-align: right;
-  color: red;
 }
 
 .grid-2 {

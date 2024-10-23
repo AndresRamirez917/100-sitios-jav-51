@@ -67,6 +67,5 @@ const emailValido = (email) => {
     return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email.value)
 }
 
-btn_enviar.addEventListener("click", enviar)
-
 getData()
+btn_enviar.addEventListener("click", enviar)
