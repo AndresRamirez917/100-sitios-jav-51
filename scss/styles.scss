@@ -72,6 +72,26 @@ form {
     }
 }
 
+@keyframes show {
+    from {
+        opacity: 0;
+        scale: 25%;
+    }
+    to {
+        opacity: 1;
+        scale: 100%;
+    }
+}
+
+img, #features {
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+    animation-timeline: --image;
+    animation-name: show;
+    animation-range: entry 25% cover 30%;
+    animation-fill-mode:both;
+}
+
 
 //mainheader
 .grid-1 {
@@ -134,7 +154,15 @@ form {
         text-align: center;
     }
 
+//placeholder
 
+::placeholder {
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 600; 
+    content: "\f007";
+    text-align: right;
+    color: red;
+}
 
 
     //     content: "✈";
@@ -232,7 +260,7 @@ form {
 }
 
 #features {
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
 
     .card {
         font-size: small;
@@ -307,10 +335,14 @@ form {
     .pricing-box {
         img {
             width: 40%;
+            height: 20vh;
         }
 
         h3 {
             margin: 1rem 0;
+        }
+        p {
+            margin: 2rem 0;
         }
     }
 

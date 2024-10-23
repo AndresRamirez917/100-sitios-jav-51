@@ -75,6 +75,7 @@
     grid-template-columns: repeat(1, 1fr);
 }
 #features {
+    margin-bottom: 5rem;
     .card-1,
     .card-2,
     .card-3,
@@ -114,6 +115,9 @@
     .pricing-box-3 {
         grid-row: 3;
     }
+    // .pricing-box {
+    //     margin-top: 30rem;
+    // }
 }
 
 //contact

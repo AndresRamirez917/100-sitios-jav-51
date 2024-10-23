@@ -63,6 +63,25 @@ form .button-2::after {
   font-size: 1rem;
 }
 
+@keyframes show {
+  from {
+    opacity: 0;
+    scale: 25%;
+  }
+  to {
+    opacity: 1;
+    scale: 100%;
+  }
+}
+img, #features {
+  view-timeline-name: --image;
+  view-timeline-axis: block;
+  animation-timeline: --image;
+  animation-name: show;
+  animation-range: entry 25% cover 30%;
+  animation-fill-mode: both;
+}
+
 .grid-1 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -114,6 +133,20 @@ form .button-2::after {
   color: #fff;
   font-size: small;
   text-align: center;
+}
+#mainheader ::-moz-placeholder {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 600;
+  content: "\f007";
+  text-align: right;
+  color: red;
+}
+#mainheader ::placeholder {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 600;
+  content: "\f007";
+  text-align: right;
+  color: red;
 }
 
 .grid-2 {
@@ -179,7 +212,7 @@ form .button-2::after {
 }
 
 #features {
-  margin-bottom: 3rem;
+  margin-bottom: 5rem;
 }
 #features .card {
   font-size: small;
@@ -242,9 +275,13 @@ form .button-2::after {
 }
 #pricing .pricing-box img {
   width: 40%;
+  height: 20vh;
 }
 #pricing .pricing-box h3 {
   margin: 1rem 0;
+}
+#pricing .pricing-box p {
+  margin: 2rem 0;
 }
 #pricing .pricing-box-1 {
   grid-column: 1;

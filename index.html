@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/scss/styles.css">
     <link rel="stylesheet" media="screen and (max-width:1000px)" href="scss/mobile.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -84,7 +86,7 @@
     <!-- pricing -->
 
     <section id="pricing" class="grid-4">
-        <div class="pricing-box pricing-box-1">
+        <!-- <div class="pricing-box pricing-box-1">
             <img src="/images/feature-embed.png" alt="">
             <h3>100% Responsive</h3>
             <p>Lorem ipsum dolor sit amet consectetur. Viverra euismod sagittis quam suspendisse. Eu ut egestas consectetur in rutrum amet sed lorem ipsum.</p>
@@ -98,7 +100,7 @@
             <img src="/images/feature-responsive.png" alt="">
             <h3>Available to Embed</h3>
             <p>Lorem ipsum dolor sit amet consectetur. Viverra euismod sagittis quam suspendisse. Eu ut egestas consectetur in rutrum amet sed lorem ipsum.</p>
-        </div>
+        </div> -->
     </section>
 
     <section id="contact">
@@ -107,17 +109,17 @@
             <form action="">
                 <div class="form-group">
                     <label for="">Name</label>
-                    <input class="form-control" type="text">
+                    <input id="nombre" class="form-control" type="text" placeholder="">
                 </div>
                 <div class="form-group">
                     <label for="">Name</label>
-                    <input class="form-control" type="text">
+                    <input id="email" class="form-control" type="text" placeholder="">
                 </div>
                 <div class="form-group">
                     <label for="">Name</label>
-                    <textarea class="form-control" name="" id="" cols="30" rows="10"></textarea>
+                    <textarea class="form-control" name="" id="mensaje" cols="30" rows="10" placeholder=""></textarea>
                 </div>
-                <button class="btn button-2"> Submit</button>
+                <button id="btn-enviar" class="btn button-2"> Submit</button>
             </form>
         </div>
     </section>
@@ -144,5 +146,6 @@
             <h3>Sitio Web 2023 © AndresRamirez</h3>
         </div>
     </footer>
+    <script src="js/index.js"></script>
 </body>
 </html>

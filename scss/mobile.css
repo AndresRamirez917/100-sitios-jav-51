@@ -50,6 +50,9 @@
   grid-template-columns: repeat(1, 1fr);
 }
 
+#features {
+  margin-bottom: 5rem;
+}
 #features .card-1,
 #features .card-2,
 #features .card-3,
